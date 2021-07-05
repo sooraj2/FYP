@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText username,password;
     private String uname, pass;
-    private String url = "http://192.168.10.8/fyp/login.php";
+    private String url = "http://10.102.128.73/fyp/signup.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
