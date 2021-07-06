@@ -13,7 +13,7 @@
         android:layout_height="0dp"
         android:background="@color/bgray"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintHeight_percent="0.22"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -98,7 +98,8 @@
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/secondview1" />
+        app:layout_constraintTop_toBottomOf="@+id/secondview1"
+        android:drawableLeft="@drawable/ic_baseline_person" />
 
     <EditText
         android:id="@+id/s_email"
@@ -118,7 +119,8 @@
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/s_name" />
+        app:layout_constraintTop_toBottomOf="@+id/s_name"
+        android:drawableLeft="@drawable/ic_baseline_email_24" />
 
     <EditText
         android:id="@+id/s_phone"
@@ -138,7 +140,8 @@
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/s_email" />
+        app:layout_constraintTop_toBottomOf="@+id/s_email"
+        android:drawableLeft="@drawable/ic_baseline_phone" />
 
     <EditText
         android:id="@+id/s_password"
@@ -158,7 +161,8 @@
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/s_phone" />
+        app:layout_constraintTop_toBottomOf="@+id/s_phone"
+        android:drawableLeft="@drawable/ic_baseline_lock" />
 
     <EditText
         android:id="@+id/s_confirmpass"
@@ -178,7 +182,8 @@
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/s_password" />
+        app:layout_constraintTop_toBottomOf="@+id/s_password"
+        android:drawableLeft="@drawable/ic_baseline_lock" />
 
     <Button
         android:id="@+id/signup"
