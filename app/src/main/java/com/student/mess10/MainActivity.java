@@ -3,6 +3,7 @@ package com.student.mess10;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText username,password;
     private String uname, pass;
-    private String url = "http://10.102.128.73/fyp/signup.php";
+    private String url = "http://10.102.128.73/fyp/login.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Register(View view){
+        startActivity(new Intent(this, signup.class));
+    }
+
+    public void Login(View view){
         uname= username.getText().toString().trim();
         pass= password.getText().toString().trim();
         if(!uname.equals("")&& !pass.equals("")){
