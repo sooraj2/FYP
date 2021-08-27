@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText username,password;
     private String uname, pass;
-    private String url = "http://10.102.128.73/fyp/login.php";
+    private String url = "https://10.102.128.73:2048/fyp/login.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Register(View view){
-        startActivity(new Intent(this, signup.class));
+
+        startActivity(new Intent(MainActivity.this, signup.class));
     }
 
     public void Login(View view){
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onResponse(String response) {
                     if (response.equals("Success")) {
                         Toast.makeText(MainActivity.this, "login successful", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(MainActivity.this, Dashboard.class));
                     }
                     else
                         Toast.makeText(MainActivity.this, response, Toast.LENGTH_SHORT).show();
