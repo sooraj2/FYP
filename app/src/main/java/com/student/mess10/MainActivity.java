@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Register(View view){
 
+
         startActivity(new Intent(MainActivity.this, signup.class));
     }
 
