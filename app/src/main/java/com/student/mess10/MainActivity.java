@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void Register(View view){
 
-
         startActivity(new Intent(MainActivity.this, signup.class));
     }
 
@@ -61,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onErrorResponse(VolleyError error) {
                     Toast.makeText(MainActivity.this, error.toString().trim(),Toast.LENGTH_LONG).show();
-                    Log.e("error in request", "ye kya ho gaya" );
+
                 }
             }){
                 @Nullable
