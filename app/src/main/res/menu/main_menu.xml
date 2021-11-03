@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/menu_24"
+            android:title="Menu" />
+
+        <item
+            android:id="@+id/nav_units"
+            android:icon="@drawable/units_history_24"
+            android:title="Units History" />
+
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/reports_24"
+            android:title="Report" />
+    </group>
+
+
+    <item android:title="Account">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+<!--                <item-->
+<!--                    android:id="@+id/nav_login"-->
+<!--                    android:icon="@drawable/ic_baseline_phone"-->
+<!--                    android:title="Login" />-->
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/person_24"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Portals">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/feedback_24"
+                android:title="Feedback" />
+
+            <item
+                android:id="@+id/nav_comlpaint"
+                android:icon="@drawable/complaint_24"
+                android:title="Complaint" />
+        </menu>
+    </item>
+
+
+
+</menu>
