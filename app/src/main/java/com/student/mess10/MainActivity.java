@@ -42,43 +42,44 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Login(View view){
-        uname= username.getText().toString().trim();
-        pass= password.getText().toString().trim();
-        if(!uname.equals("")&& !pass.equals("")){
-            StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
-                @Override
-                public void onResponse(String response) {
-                    if (response.equals("Success")) {
-                        Toast.makeText(MainActivity.this, "login successful", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(MainActivity.this, Dashboard.class));
-                    }
-                    else
-                        Toast.makeText(MainActivity.this, response, Toast.LENGTH_SHORT).show();
-
-                }
-            }, new Response.ErrorListener() {
-                @Override
-                public void onErrorResponse(VolleyError error) {
-                    Toast.makeText(MainActivity.this, error.toString().trim(),Toast.LENGTH_LONG).show();
-
-                }
-            }){
-                @Nullable
-                @Override
-                protected Map<String, String> getParams() throws AuthFailureError {
-                    Map<String,String> data= new HashMap<>();
-                    data.put("username",uname);
-                    data.put("password",pass);
-                    return data;
-                }
-            };
-
-            RequestQueue requestqueue= Volley.newRequestQueue(getApplicationContext());
-            requestqueue.add(stringRequest);
-
-        }
-        else{
-            Toast.makeText(MainActivity.this, "Please Enter all the data",Toast.LENGTH_LONG).show();
-        }
+        startActivity(new Intent(MainActivity.this, Dashboard.class));
+//        uname= username.getText().toString().trim();
+//        pass= password.getText().toString().trim();
+//        if(!uname.equals("")&& !pass.equals("")){
+//            StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
+//                @Override
+//                public void onResponse(String response) {
+//                    if (response.equals("Success")) {
+//                        Toast.makeText(MainActivity.this, "login successful", Toast.LENGTH_SHORT).show();
+//                        startActivity(new Intent(MainActivity.this, Dashboard.class));
+//                    }
+//                    else
+//                        Toast.makeText(MainActivity.this, response, Toast.LENGTH_SHORT).show();
+//
+//                }
+//            }, new Response.ErrorListener() {
+//                @Override
+//                public void onErrorResponse(VolleyError error) {
+////                    Toast.makeText(MainActivity.this, error.toString().trim(),Toast.LENGTH_LONG).show();
+//
+//                }
+//            }){
+//                @Nullable
+//                @Override
+//                protected Map<String, String> getParams() throws AuthFailureError {
+//                    Map<String,String> data= new HashMap<>();
+//                    data.put("username",uname);
+//                    data.put("password",pass);
+//                    return data;
+//                }
+//            };
+//
+//            RequestQueue requestqueue= Volley.newRequestQueue(getApplicationContext());
+//            requestqueue.add(stringRequest);
+//
+//        }
+//        else{
+//            Toast.makeText(MainActivity.this, "Please Enter all the data",Toast.LENGTH_LONG).show();
+//        }
     }
 }
