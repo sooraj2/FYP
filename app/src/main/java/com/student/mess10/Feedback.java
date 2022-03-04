@@ -23,7 +23,7 @@ public class Feedback extends AppCompatActivity implements NavigationView.OnNavi
     NavigationView navigationView;
     ImageView menuIcon;
 
-    String[] items =  {"Material","Design","Components","Android","5.0 Lollipop"};
+    String[] items =  {"Food Quality","Food Serving","Mess Processes","Mobile Application"};
     AutoCompleteTextView autoCompleteTxt;
     ArrayAdapter<String> adapterItems;
 
@@ -31,7 +31,6 @@ public class Feedback extends AppCompatActivity implements NavigationView.OnNavi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
-
 
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);

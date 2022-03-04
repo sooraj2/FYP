@@ -3,20 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/complaint_24.xml" value="0.18693693693693694" />
+        <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/feedback_24.xml" value="0.18693693693693694" />
+        <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/guest.xml" value="0.18693693693693694" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/home.xml" value="0.19054054054054054" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/ic_baseline_lock.xml" value="0.2203125" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.2203125" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/ic_wave.xml" value="0.19054054054054054" />
+        <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/list.xml" value="0.18693693693693694" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/logoart1.xml" value="0.19054054054054054" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/logout_icon.xml" value="0.19054054054054054" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/menu_background.xml" value="0.2203125" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/menu_foreground.xml" value="0.2203125" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/person_24.xml" value="0.19054054054054054" />
+        <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/skip_meal.xml" value="0.18693693693693694" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/user1_background.xml" value="0.19054054054054054" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/drawable/user_background.xml" value="0.17466666666666666" />
-        <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/layout/activity_complaint.xml" value="0.1" />
-        <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
-        <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/layout/activity_feedback.xml" value="0.22" />
+        <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/layout/activity_complaint.xml" value="0.18" />
+        <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/layout/activity_feedback.xml" value="0.15" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/layout/activity_signup.xml" value="0.2" />
         <entry key="..\:/Users/soora/AndroidStudioProjects/Mess10/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />

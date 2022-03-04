@@ -45,7 +45,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/feedback"
+                android:id="@+id/complaint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -61,6 +61,33 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/complaint_drop"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:hint="Select Subject of Complaint"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/complaint"
+                android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
+
+                <AutoCompleteTextView
+                    android:id="@+id/complaint_auto_complete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:height="48dp"
+                    android:inputType="none"
+                    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
 
             <EditText
                 android:id="@+id/editTextTextPersonName2"
@@ -73,12 +100,13 @@
                 android:layout_marginRight="16dp"
                 android:ems="10"
                 android:hint="Write your complaint here..."
+                android:backgroundTint="@color/colorPrimary"
                 android:inputType="textMultiLine"
                 android:lines="10"
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/feedback"
+                app:layout_constraintTop_toBottomOf="@+id/complaint_drop"
                 tools:ignore="RtlCompat" />
 
             <Button

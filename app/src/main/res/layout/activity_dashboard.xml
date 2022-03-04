@@ -201,14 +201,15 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginRight="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="8dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical"
-                            android:paddingBottom="32dp">
+                            android:paddingBottom="32dp"
+                            >
 
                             <TextView
                                 android:id="@+id/activity_main_confirmed_title_textview"
@@ -244,7 +245,7 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginRight="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="8dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -288,7 +289,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginRight="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="8dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -330,7 +331,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginRight="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="8dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -375,7 +376,7 @@
                         android:layout_marginRight="8dp"
                         android:layout_marginBottom="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="8dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -419,7 +420,7 @@
                         android:layout_marginRight="8dp"
                         android:layout_marginBottom="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="8dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"

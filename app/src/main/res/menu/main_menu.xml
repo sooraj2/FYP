@@ -13,9 +13,14 @@
             android:title="Menu" />
 
         <item
-            android:id="@+id/nav_units"
-            android:icon="@drawable/units_history_24"
-            android:title="Units History" />
+            android:id="@+id/nav_guests"
+            android:icon="@drawable/guest"
+            android:title="Apply for Guest food" />
+
+        <item
+            android:id="@+id/nav_unit_off"
+            android:icon="@drawable/skip_meal"
+            android:title="Skip meal" />
 
         <item
             android:id="@+id/nav_report"
@@ -29,11 +34,6 @@
         <menu>
 
             <group android:checkableBehavior="single">
-
-                <item
-                    android:id="@+id/nav_login"
-                    android:icon="@drawable/ic_baseline_phone"
-                    android:title="Login" />
 
                 <item
                     android:id="@+id/nav_profile"

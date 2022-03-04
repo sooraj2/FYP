@@ -36,11 +36,6 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
         menuIcon = findViewById(R.id.menu_icon);
-
-//        Hide or show items
-        Menu menu = navigationView.getMenu();
-        menu.findItem(R.id.nav_login).setVisible(false);
-
         navigationDrawer();
 
 //        graph on dashboard
@@ -99,8 +94,6 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);
-
-
         return true;
     }
 }
